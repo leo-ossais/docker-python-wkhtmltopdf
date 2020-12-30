@@ -5,5 +5,5 @@ RUN apt-get update \
     fontconfig-config libx11-data libxau6 libxdmcp6 xfonts-utils ucf fonts-dejavu-core \
     ttf-bitstream-vera fonts-liberation libbsd0 libfontenc1 libxfont2 \
     x11-common xfonts-encodings \
-    && wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.buster_amd64.deb \
-    && dpkg -i wkhtmltox_0.12.5-1.buster_amd64.deb
+    && wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.buster_amd64.deb \
+    && dpkg -i wkhtmltox_0.12.6-1.buster_amd64.deb
