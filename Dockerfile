@@ -1,4 +1,4 @@
-FROM python:3.7-slim
+FROM python:3.8-slim
 RUN apt-get update \
     && apt-get install -y wget fontconfig libfreetype6 libjpeg62-turbo libpng16-16 \
     libx11-6 libxcb1 libxext6 libxrender1 xfonts-75dpi xfonts-base libfontconfig1 \
